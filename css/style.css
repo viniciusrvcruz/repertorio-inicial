@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(248, 248, 248);
+    border-bottom: 1px solid rgb(107, 107, 107);
+}
+
+h2 {
+    display: inline;
+    font-size: 1.3em;
+    margin-left: 10px;
+    border-bottom: 3px solid #46ACEB;
+    padding-bottom: 5px;
+}
+
+section#nome-repertorio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+div.nome-da-musica {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+div.icons-menu-user {
+    display: flex;
+    flex-direction: column;
+}
+
+span.icon-menu {
+    padding-bottom: 8px;
+}
+
+form#pesquisar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 248, 248);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+input#pesquisar-musica {
+    font-size: 1em;
+    width: 77%;
+    height: 35px;
+    padding: 0px 5px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 10px 0px 0px 10px;
+}
+
+button#button-pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    font-size: 1em;
+    border: 1px solid rgb(107, 107, 107);
+    padding: 0px 15px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+section#musicas {
+    margin: 15px 0px;
+    background-color: rgb(248, 248, 248);
+    padding: 5px 15px 15px 15px;
+    border-radius: 15px;
+}
+
+div.musica-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+div.video-musica-autor-container {
+    display: flex;
+}
+
+section#musicas img {
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 4px 4px;
+}
+
+div.musica-autor {
+    display: flex;
+    flex-direction: column;
+}
+
+a.link-musica {
+    text-decoration: none;
+    color: black;
+}
+
+p.autor {
+    color: rgb(59, 59, 59);
+    font-size: .7em;
+}
+
+p.tom-musica {
+    text-align: center;
+}
+
+button#adicionar-musica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 82px;
+    right: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(59, 59, 59);
+    box-shadow: 1px 1px 2px #888;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(248, 248, 248);
+    border-top: 1px solid rgb(100, 100, 100);
+    transition: bottom 0.3s ease-in-out;
+}
+
+div.nome-span-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span.icons-footer {
+    font-size: 2em;   
+    padding: 10px;
+}
+
+span.icons-footer:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: .8em;
+}
+
